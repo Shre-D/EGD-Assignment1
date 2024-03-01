@@ -13,3 +13,8 @@ Run `python -m venv env` and `source env/bin/activate`
 First use `pip install -r requirements.txt` to install the dependencies.
 
 Once that's done, navigate into the `main.ipynb` file to make changes or just run the code.
+
+#### TODO
+- Refactor code
+- Update python files
+- Add all countries
