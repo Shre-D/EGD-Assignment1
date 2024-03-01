@@ -20,5 +20,16 @@ sorted_cols = us_data.isna().sum().to_dict()
 sorted(sorted_cols.items(), key=lambda x: x[1])
 
 # selecting the columns we want to analyse
-selected_us_data = us_data[["Year","GDP growth (annual %)","GDP per capita (current US$)","Foreign direct investment, net outflows (BoP, current US$)","Inflation, consumer prices (annual %)","Unemployment, total (% of total labor force) (national estimate)","Population growth (annual %)","Taxes on income, profits and capital gains (current LCU)"]]
+selected_us_data = us_data[
+    [
+        "Year",
+        "GDP growth (annual %)",
+        "GDP per capita (current US$)",
+        "Foreign direct investment, net outflows (BoP, current US$)",
+        "Inflation, consumer prices (annual %)",
+        "Unemployment, total (% of total labor force) (national estimate)",
+        "Population growth (annual %)",
+        "Taxes on income, profits and capital gains (current LCU)",
+    ]
+]
 print(selected_us_data)
